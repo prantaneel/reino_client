@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from '@mui/icons-material/Instagram';

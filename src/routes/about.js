@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 function About() {
     return;
 }
