@@ -15,7 +15,7 @@ function NavBar() {
             <Nav className='me-auto' />
           <Nav className='navbar-text'>
             <Nav.Link href="#teams">Teams</Nav.Link>
-            <Nav.Link href="#research">Research</Nav.Link>
+            <Nav.Link href="https://reino-research.netlify.app/">Research</Nav.Link>
             <Nav.Link href="#about">About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
