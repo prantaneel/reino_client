@@ -15,7 +15,7 @@ export default function Footer() {
             </div>
             <div className="footer-routes col-lg-3">
               <a href="#teams">Teams</a>
-              <a href="#research">Research</a>
+              <a href="https://reino-research.netlify.app/">Research</a>
               <a href="#about">About</a>
             </div>
           </div>
