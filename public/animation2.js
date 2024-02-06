@@ -18,12 +18,12 @@ class Particle {
   draw() {
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-    var fill = Math.round(Math.random()*10)
-    if (fill === 4) {
-      ctx.lineWidth = this.size / 3;
+    var fill = Math.round(Math.random()*5)
+    if (fill === 0) {
+      ctx.lineWidth = this.size / 4;
       ctx.strokeStyle = "#fff";
       ctx.stroke();
-    } else if(fill===5){
+    } else if(fill===1){
       ctx.fillStyle = "#fff";
       ctx.fill();
     }
@@ -37,7 +37,7 @@ class Particle {
 function init() {
   particlesArray = [];
   let numberOfParticles = 1;
-  let size = 7
+  let size = 5
   let pSize = 2*size
   let nopx = canvas.width / pSize;
   let nopy = canvas.height / pSize;
@@ -56,7 +56,7 @@ function init() {
 function animate() {
   setTimeout(()=>{
     requestAnimationFrame(animate);
-  }, 98);
+  }, 84);
    // this is the recursive call that updates after performing the operation
   ctx.clearRect(0, 0, innerWidth, innerHeight);
   for (let i = 0; i < particlesArray.length; i++) {
