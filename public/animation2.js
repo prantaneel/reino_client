@@ -18,7 +18,7 @@ class Particle {
   draw() {
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-    var fill = Math.round(Math.random()*5)
+    var fill = Math.round(Math.random()*10)
     if (fill === 0) {
       ctx.lineWidth = this.size / 4;
       ctx.strokeStyle = "#fff";
@@ -26,6 +26,14 @@ class Particle {
     } else if(fill===1){
       ctx.fillStyle = "#fff";
       ctx.fill();
+    }
+    else if(fill===2){
+      ctx.fillStyle = "rgba(255, 255, 255, 0.3)";
+      ctx.fill()
+    }
+    else if(fill===4){
+      ctx.fillStyle = "rgba(255, 255, 255, 0.7)";
+      ctx.fill()
     }
   }
 

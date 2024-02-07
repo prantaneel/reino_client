@@ -34,14 +34,14 @@ function Home() {
             <Card.Body>
               <Card.Title>
                 <h1>
-                Where Disruptive Thinking Meets Quantitative Finance
+                Where Disruptive Thinking Meets Quantitative Trading
                 </h1>
               </Card.Title>
               <Card.Text>
                 <h4>
                 At our core, we love to play with data and models. We are an
-                independent Research Lab developing models and strategies for
-                our clients along with Risk Management.
+                independent research lab developing trading strategies and managing portfolio for
+                our clients across various asset classes along with risk management.
                 </h4>
               </Card.Text>
             </Card.Body>
