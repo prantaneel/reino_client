@@ -18,9 +18,9 @@ function Home() {
   let url;
 
   if (animation === 1) {
-    url = "/animation2.js";
-  } else {
     url = "/animation.js";
+  } else {
+    url = "/animation2.js";
   }
   useScript(url);
   return (

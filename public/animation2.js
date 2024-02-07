@@ -2,9 +2,10 @@ const canvas = document.getElementById("canvas-6066");
 const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-
+ctx.fillStyle = "red";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
 //Image
-var image = new Image();
+// var image = new Image();
 
 let particlesArray;
 
@@ -45,7 +46,7 @@ class Particle {
 function init() {
   particlesArray = [];
   let numberOfParticles = 1;
-  let size = 5
+  let size = 11
   let pSize = 2*size
   let nopx = canvas.width / pSize;
   let nopy = canvas.height / pSize;
@@ -64,7 +65,7 @@ function init() {
 function animate() {
   setTimeout(()=>{
     requestAnimationFrame(animate);
-  }, 84);
+  }, 88);
    // this is the recursive call that updates after performing the operation
   ctx.clearRect(0, 0, innerWidth, innerHeight);
   for (let i = 0; i < particlesArray.length; i++) {
