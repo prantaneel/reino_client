@@ -36,7 +36,7 @@ export default function Footer() {
             <div className="col-lg-5">
               <div className="address-text">
                 <p>
-                  Copyright © Reino Securities or one of its affiliates. All
+                  Copyright © Reino Labs or one of its affiliates. All
                   rights reserved.
                 </p>
               </div>
