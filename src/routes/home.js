@@ -34,14 +34,14 @@ function Home() {
             <Card.Body>
               <Card.Title>
                 <h1>
-                Where Disruptive Thinking Meets Quantitative Trading
+                We do obscure research.
                 </h1>
               </Card.Title>
               <Card.Text>
                 <h4>
                 At our core, we love to play with data and models. We are an
-                independent research lab developing trading strategies and managing portfolio for
-                our clients across various asset classes along with risk management.
+                independent research lab playing in the domains of finance, physics,
+                art, and technology.
                 </h4>
               </Card.Text>
             </Card.Body>
@@ -56,15 +56,7 @@ function Home() {
             </div>
             <div>
               <p>
-                Our team consists of the best talents from top Engineering
-                Schools with expertice in machine learning, data analytics,
-                finance and mathematics.
-              </p>
-              <p>
-                We combine our diverse knowledge with disruptive out-of-the-box
-                thinking to create state-of-the-art pricing models across a wide
-                range of financial instruments, trading strategies, Portfolio
-                Construction and Risk Management models.
+                We get bored easily. So new stuff every month for that rush!
               </p>
             </div>
           </div>
