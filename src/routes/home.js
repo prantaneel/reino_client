@@ -58,6 +58,10 @@ function Home() {
               <p>
                 We get bored easily. So new stuff every month for that rush!
               </p>
+              <p>
+                I'll talk about stuff maybe no-one gives a fuck about. Or I don't know shit about.
+                So good luck keeping up.
+              </p>
             </div>
           </div>
         </div>
